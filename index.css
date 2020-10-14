@@ -193,6 +193,34 @@ section .inner {
   padding-left: 6em;
 }
 
+.image {
+  border-radius: 0;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.image.fit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+.image.fit img {
+  width: 100%;
+}
+
+.image img {
+  border-radius: 0;
+  display: block;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 #footer {
   background-color: #c8dbf5;
   padding: 4em 0 2em 0;

@@ -72,19 +72,13 @@ h6 {
 
 #header .logo {
   font-family: "Dancing Script", cursive;
-  display: inline-block;
-  height: inherit;
   left: 0;
-  line-height: inherit;
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 0;
   color: #c8dbf5;
   font-size: 1.75em;
   text-transform: none;
-  font-weight: normal;
-  padding: 0;
 }
 
 #header .logo:hover {

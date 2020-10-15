@@ -22,6 +22,7 @@
 4주차에 배운 레이아웃 관련된 내용을 활용하여, 웹 페이지의 레이아웃을 잡아 보는 것
 
 <br>
+<br>
 
 ## 주요 코드 설명
 
@@ -37,6 +38,8 @@ section .inner,
 ```
 
 ### header
+
+![](img/header.jpg)
 
 ```css
 #header {
@@ -57,6 +60,8 @@ section .inner,
 
 - banner
 
+![](img/banner.jpg)
+
 ```css
 #banner {
   padding: 10em 0 10em 0; /* 배너 이미지 크기 지정 */
@@ -69,6 +74,8 @@ section .inner,
 
 - one
 
+![](img/one.jpg)
+
 ```css
 #one {
   padding: 6em 0 6em 0; /* 상단 하단의 빈 공간 적용 */
@@ -76,6 +83,8 @@ section .inner,
 ```
 
 - two
+
+![](img/two.jpg)
 
 ```css
 #two {
@@ -103,6 +112,8 @@ section .inner,
 
 ### footer
 
+![](img/footer.jpg)
+
 ```css
 #footer {
   background-color: #c8dbf5; /* 백그라운드 색 지정 */
@@ -111,6 +122,7 @@ section .inner,
 }
 ```
 
+<br>
 <br>
 
 ## 비고 및 고찰

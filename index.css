@@ -56,12 +56,6 @@ h6 {
   font-size: 0.7em;
 }
 
-section .inner {
-  max-width: 65em;
-  width: calc(100% - 6em);
-  margin: 0 auto;
-}
-
 #header {
   background: #1c1c1c;
   color: #d5d5d5;
@@ -74,13 +68,6 @@ section .inner {
   top: 0;
   width: 100%;
   z-index: 10001;
-}
-
-#header .inner {
-  max-width: 65em;
-  width: calc(100% - 6em);
-  margin: 0 auto;
-  position: relative;
 }
 
 #header .logo {
@@ -124,34 +111,17 @@ section .inner {
 }
 
 #banner {
-  background-color: #e5474b;
-  color: #f2a3a5;
-  padding: 13em 0 11em 0;
-  background-color: #0c0c0c;
+  padding: 10em 0 10em 0;
   background-image: url(https://i.picsum.photos/id/78/1200/700.jpg?hmac=I5XesJ1LFXoLapnx0rx3JPC7U4tRVbyJhm2c81khjRQ);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 15% left;
   text-align: left;
-  position: relative;
   z-index: 9999;
-}
-
-#banner .inner {
-  max-width: 65em;
-  width: calc(100% - 6em);
-  margin: 0 auto;
-  position: relative;
-  z-index: 10000;
-  line-height: 1.5;
 }
 
 #banner h1 {
   font-size: 2em;
-  margin: 0 0 1em 0;
   padding: 0;
   letter-spacing: 3px;
-  font-weight: 700;
   color: #fff;
 }
 
@@ -160,12 +130,11 @@ section .inner {
 }
 
 #one {
-  padding: 6em 0 4em 0;
+  padding: 6em 0 6em 0;
 }
 
 #two {
-  padding: 6em 0 4em 0;
-  background: #f3f3f3;
+  padding: 6em 0 6em 0;
   background: linear-gradient(
     to right,
     #f3f3f3 0%,
@@ -173,7 +142,6 @@ section .inner {
     #f7f7f7 0%,
     #f7f7f7 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 );
 }
 
 #two .inner {
@@ -223,23 +191,25 @@ section .inner {
 
 #footer {
   background-color: #c8dbf5;
-  padding: 4em 0 2em 0;
+  padding: 3em 0 2em 0;
   background: #c8dbf5;
   color: #ffffff;
 }
 
-#footer .inner {
-  max-width: 65em;
-  margin: 0 auto;
-}
-
 #footer .copyright {
   font-size: 0.9em;
-  margin: 0 0 2em 0;
-  padding: 0;
 }
 
 #footer .copyright a {
   color: #ffffff;
   text-decoration: none;
+}
+
+section .inner,
+#header .inner,
+#footer .inner {
+  max-width: 65em;
+  width: calc(100% - 5em);
+  margin: 0 auto;
+  position: relative;
 }

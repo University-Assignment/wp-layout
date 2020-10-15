@@ -37,14 +37,16 @@ section .inner,
 }
 ```
 
+<br>
+
 ### header
 
 ![](img/header.jpg)
 
 ```css
 #header {
-  background: #1c1c1c;
-  color: #d5d5d5;
+  background: #1c1c1c; /* 백그라운드 색 지정 */
+  color: #d5d5d5; /* 텍스트 색 지정 */
   cursor: default;
   top: 0; /* 상단 고정 */
   left: 0; /* 좌측 고정 */
@@ -55,6 +57,21 @@ section .inner,
   z-index: 10001;
 }
 ```
+
+```css
+#header .logo {
+  font-family: "Dancing Script", cursive; /* 폰트 변경 */
+  position: absolute; /* 부모 요소 기준으로 상대 위치 결정 */
+  left: 0; /* 부모 요소 내에서 가장 왼쪽으로 */
+  margin: 0; /* 빈 공간 제거 */
+  padding: 0; /* 빈 공간 제거 */
+  color: #c8dbf5; /* 로고 텍스트 색 지정 */
+  font-size: 1.75em; /* 폰트 크기 지정 */
+  text-transform: none; /* 대문자로 바뀌는 효과 미적용되게 */
+}
+```
+
+<br>
 
 ### section
 
@@ -109,6 +126,8 @@ section .inner,
   width: 50%; /* 컨텐츠를 한 라인에 넣기 위해 좌우 크기를 줄임 */
 }
 ```
+
+<br>
 
 ### footer
 
